@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Many points on the map 1.0\n"
+"POT-Creation-Date: 2018-07-11 11:26+0300\n"
+"PO-Revision-Date: 2018-07-11 13:04+0300\n"
+"Last-Translator: \n"
+"Language-Team: Marko Maksym\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-admin-main.php:82
+msgid "List of the maps"
+msgstr "Список карт"
+
+#: admin/class-admin-main.php:82
+msgid "Many points"
+msgstr "Точки на карте"
+
+#: admin/class-admin-main.php:85 admin/templates/add_new_map.php:8
+msgid "Create a new map"
+msgstr "Создать новую карту"
+
+#: admin/class-admin-main.php:88
+msgid "Edit Map"
+msgstr "Редактировать карту"
+
+#: admin/class-admin-main.php:120
+msgid "Settings"
+msgstr "Настроить"
+
+#: admin/templates/add_new_map.php:19 admin/templates/edit_map.php:39
+msgid "The name of the map:"
+msgstr "Название карты:"
+
+#: admin/templates/add_new_map.php:24 admin/templates/edit_map.php:44
+msgid "Map description:"
+msgstr "Описание карты:"
+
+#: admin/templates/add_new_map.php:32 admin/templates/edit_map.php:52
+msgid "Coordinates of the map"
+msgstr "Координаты карты"
+
+#: admin/templates/add_new_map.php:36 admin/templates/edit_map.php:56
+msgid "Latitude Map Center:"
+msgstr "Широта центра карты:"
+
+#: admin/templates/add_new_map.php:37 admin/templates/edit_map.php:57
+msgid "For example: 50.428545"
+msgstr "Например: 50.428545"
+
+#: admin/templates/add_new_map.php:43 admin/templates/edit_map.php:63
+msgid "Longitude Map Center:"
+msgstr "Долгота центра карты:"
+
+#: admin/templates/add_new_map.php:44 admin/templates/edit_map.php:64
+msgid "For example: 30.689375"
+msgstr "Например: 30.689375"
+
+#: admin/templates/add_new_map.php:52 admin/templates/edit_map.php:72
+msgid "Scaling a map"
+msgstr "Масштабирование карты"
+
+#: admin/templates/add_new_map.php:56 admin/templates/edit_map.php:76
+msgid "Default zoom map:"
+msgstr "Масштабирование карты по умолчанию:"
+
+#: admin/templates/add_new_map.php:72 admin/templates/edit_map.php:92
+msgid "Default zoom to the point:"
+msgstr "Масштабирование к определенной точки:"
+
+#: admin/templates/add_new_map.php:92 admin/templates/edit_map.php:110
+msgid "Map size"
+msgstr "Размер карты"
+
+#: admin/templates/add_new_map.php:94 admin/templates/edit_map.php:114
+msgid "Width:"
+msgstr "Ширина:"
+
+#: admin/templates/add_new_map.php:96 admin/templates/edit_map.php:116
+msgid "For example: 700px or 100%"
+msgstr "Например: 700px или 100%"
+
+#: admin/templates/add_new_map.php:102 admin/templates/edit_map.php:122
+msgid "Height:"
+msgstr "Высота:"
+
+#: admin/templates/add_new_map.php:104 admin/templates/edit_map.php:124
+msgid "For example: 500px"
+msgstr "Например: 500рх"
+
+#: admin/templates/add_new_map.php:112 admin/templates/edit_map.php:132
+msgid "Filters"
+msgstr "Фильтры"
+
+#: admin/templates/add_new_map.php:116 admin/templates/edit_map.php:136
+msgid "Show region filter:"
+msgstr "Показать фильтр по регионам:"
+
+#: admin/templates/add_new_map.php:126
+msgid "Create new points on the map"
+msgstr "Создать точки на карте"
+
+#: admin/templates/add_new_map.php:141 admin/templates/index.php:15
+msgid "Create map"
+msgstr "Создать карту"
+
+#: admin/templates/components/add_point_for_js.php:11
+#: admin/templates/edit_map.php:162
+msgid "Add a new point"
+msgstr "Добавить новую точку"
+
+#: admin/templates/components/add_point_for_js.php:13
+#: admin/templates/edit_map.php:164
+msgid "Delete point"
+msgstr "Удалить точку"
+
+#: admin/templates/components/add_point_for_js.php:17
+#: admin/templates/edit_map.php:168
+msgid "Set point name"
+msgstr "Название точки"
+
+#: admin/templates/components/add_point_for_js.php:20
+#: admin/templates/edit_map.php:171
+msgid "Describe the point"
+msgstr "Описание точки"
+
+#: admin/templates/components/add_point_for_js.php:25
+#: admin/templates/edit_map.php:176
+msgid "Latitude"
+msgstr "Широта"
+
+#: admin/templates/components/add_point_for_js.php:26
+#: admin/templates/edit_map.php:177
+msgid "For example: 50.456608"
+msgstr "Например: 50.456608"
+
+#: admin/templates/components/add_point_for_js.php:28
+#: admin/templates/edit_map.php:179
+msgid "Longitude"
+msgstr "Долгота"
+
+#: admin/templates/components/add_point_for_js.php:29
+#: admin/templates/edit_map.php:180
+msgid "For example: 30.343306"
+msgstr "Например: 30.343306"
+
+#: admin/templates/components/add_point_for_js.php:33
+#: admin/templates/edit_map.php:184
+msgid "Address"
+msgstr "Адрес"
+
+#: admin/templates/components/add_point_for_js.php:37
+#: admin/templates/edit_map.php:188
+msgid "WebSite"
+msgstr "Сайт"
+
+#: admin/templates/components/add_point_for_js.php:41
+#: admin/templates/edit_map.php:192
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin/templates/components/add_point_for_js.php:44
+#: admin/templates/edit_map.php:195
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: admin/templates/components/add_point_for_js.php:50
+#: admin/templates/edit_map.php:201
+msgid "Below you can add a list of regions that are related to this point."
+msgstr "Ниже Вы можете добавить регионы, к которым относится эта точка."
+
+#: admin/templates/components/add_point_for_js.php:53
+msgid "For example: Podol"
+msgstr "Например: Подол"
+
+#: admin/templates/components/add_point_for_js.php:53
+#: admin/templates/edit_map.php:206 admin/templates/edit_map.php:216
+msgid "Add region"
+msgstr "Добавить регион"
+
+#: admin/templates/components/add_point_for_js.php:54
+#: admin/templates/edit_map.php:207 admin/templates/edit_map.php:217
+msgid "Delete region"
+msgstr "Удалить регион"
+
+#: admin/templates/components/js_vars.php:3
+msgid "Delete point?"
+msgstr "Удалить точку?"
+
+#: admin/templates/components/js_vars.php:5 admin/templates/index.php:77
+msgid "Delete map?"
+msgstr "Удалить карту?"
+
+#: admin/templates/components/js_vars.php:7
+msgid "Data is saved."
+msgstr "Данные сохранены."
+
+#: admin/templates/components/js_vars.php:9
+msgid "Data not saved."
+msgstr "Данные не сохранены."
+
+#: admin/templates/edit_map.php:28 admin/templates/edit_map.php:248
+msgid "Edit map"
+msgstr "Редактировать карту"
+
+#: admin/templates/edit_map.php:146
+msgid "Create points on the map"
+msgstr "Создать новые точки на карте"
+
+#: admin/templates/edit_map.php:246
+msgid "Delete map"
+msgstr "Удалить карту"
+
+#: admin/templates/index.php:13
+msgid "All maps"
+msgstr "Все карты"
+
+#: admin/templates/index.php:25 admin/templates/index.php:65
+msgid "Name"
+msgstr "Название"
+
+#: admin/templates/index.php:26 admin/templates/index.php:66
+msgid "Description"
+msgstr "Описание"
+
+#: admin/templates/index.php:27 admin/templates/index.php:67
+msgid "Shortcode"
+msgstr "Шорт-код"
+
+#: admin/templates/index.php:28 admin/templates/index.php:68
+msgid "Action"
+msgstr "Действие"
+
+#: core/helpers.php:147
+msgid "Address:"
+msgstr "Адрес:"
+
+#: core/helpers.php:151
+msgid "Web-site:"
+msgstr "Сайт:"
+
+#: core/helpers.php:157
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: core/helpers.php:163
+msgid "Additional:"
+msgstr "Дополнительно:"
+
+#: core/helpers.php:171 core/helpers.php:209
+msgid "Regions:"
+msgstr "Локации:"
+
+#: core/helpers.php:201
+msgid "All points:"
+msgstr "Все точки:"
+
+#: core/helpers.php:223
+msgid "Search points:"
+msgstr "Поиск точек:"
+
+#: core/helpers.php:227
+msgid "All points"
+msgstr "Все точки"
+
+#: core/helpers.php:244
+msgid "Search region:"
+msgstr "Локализация:"
+
+#: core/helpers.php:263
+msgid "All regions"
+msgstr "Все локации"
+
+#~ msgid "Latitude Map Center"
+#~ msgstr "Широта центра карты"
+
+#~ msgid "Longitude Map Center"
+#~ msgstr "Долгота центра карты"

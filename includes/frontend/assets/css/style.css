@@ -1,0 +1,55 @@
+/*css styles*/
+/*filter*/
+.mxmpotm_map_filter_wrap {
+    margin-bottom: 20px;
+}
+.mxmpotm_map_filter_type_select {
+    margin-bottom: 35px;
+}
+.mxmpotm_map_filter_type_select_area {
+    float: left;
+    margin-right: 28px;
+}
+.mxmpotm_map_filter_type_select label {
+    margin-right: 8px;
+}
+.mxmpotm_map_filter_type_select label {
+    cursor: pointer;
+}
+.mxmpotm_map_filter_type_select > div {
+    margin-bottom: 8px;
+    margin-right: 22px;
+    float: left;
+}
+.mxmpotm_map_filter_search_point label,
+.mxmpotm_map_filter_search_area label {
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 176px;
+    cursor: pointer;
+    color: #796a63;
+}
+#mxmpotm_map_search_point,
+#mxmpotm_map_search_area {
+    height: 44px;
+    margin-top: -10px;
+}
+.mxmpotm-areas_wrap p {
+    margin-bottom: 0;
+}
+.mx-clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.mx-toolbar {
+    max-width: 350px;
+}
+.mx-toolbar h5 {
+    padding: 0;
+    margin: 7px 0;
+}
+.mx-toolbar > div {
+    margin-bottom: 5px;
+}

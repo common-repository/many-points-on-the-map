@@ -1,0 +1,196 @@
+/*css styles*/
+.mx-block_wrap {
+    position: relative;
+    margin-top: 20px;
+    padding: .7em 2em 1em;
+    min-width: 255px;
+    max-width: 520px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+            box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+.mx-block_wrap textarea {
+    width: 100%;
+    height: 100px;
+}
+.mx-submit_button_wrap {
+    text-align: right;
+    margin-bottom: 0;
+}
+.mx-restore_data {
+    float: left;
+    width: 464px;
+}
+.mx-restore_data label {
+    float: left;
+}
+.wp-core-ui .mx-restore_data input {
+    float: left;
+    margin-top: 2px;
+    margin-left: 8px;
+    height: 16px;
+}
+.mx-hint_text {
+    background: #f3f3f3;
+    padding: 6px;
+}
+.mx-block_wrap .thickbox img {
+    width: 200px;
+}
+
+/*list of maps*/
+.mx-shortcode {
+    background: #ddd;
+    padding: 4px 6px;
+}
+
+/*points*/
+.mx-form-group_first {
+    margin-top: -20px;
+}
+.mx-form-group_first > small:first-child {
+    margin-left: 22px;
+}
+.mx-del_point {
+    display: block;
+    position: absolute;
+    right: 0px;
+    margin-top: 26px;
+    border: 1px solid #34b3e6;
+    color: #34b3e6;
+    background: transparent;
+    cursor: pointer; 
+}
+.mxmpotm_point_wrap_open .mx-del_point {
+    margin-top: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    right: 4px;
+}
+.mx-del_point:hover {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+#mxmpotm_points_wrap .mxmpotm_point_wrap.mxmpotm_hide_del_point button.mx-del_point {
+    display: none;
+}
+.mxmpotm_point_wrap {
+    position: relative;
+    position: relative;
+    background: rgba(1, 140, 187, 0.22);
+    padding: 35px 28px 3px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #0085ba;
+    overflow: hidden;
+    height: 90px;
+}
+.mx_number_of_point {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #ffffff;
+    padding: 0px 4px;
+}
+.mxmpotm_point_wrap input,
+.mxmpotm_point_wrap textarea {
+    margin-bottom: 20px;
+    border: 1px solid rgb(1, 140, 187);
+}
+input.mx_new_point_region {
+    width: 353px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+button.mx-add_region {
+    border: none;
+    background: transparent;
+    padding: 5px 9px;
+    color: #34b3e6;
+    cursor: pointer;
+    display: none;
+}
+button.mx-delete_region {
+    border: none;
+    background: transparent;
+    padding: 5px 9px;
+    color: #ddd;
+    cursor: pointer;
+}
+button.mx-add_point {
+    position: absolute;
+    bottom: 0px;
+    right: -32px;
+    border: 1px solid #34b3e6;
+    background: transparent;
+    padding: 5px 9px;
+    color: #34b3e6;
+    cursor: pointer;
+    display: none;
+}
+#mxmpotm_points_wrap .mxmpotm_point_wrap:last-child button.mx-add_point {
+    display: block;
+}
+button.mx-open_point_box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #34b3e6;
+    background: transparent;
+    padding: 5px 9px;
+    color: #34b3e6;
+    cursor: pointer;
+}
+.mxmpotm_point_wrap_open {
+    height: auto;
+    overflow: visible;
+}
+.mxmpotm_point_wrap_open button.mx-open_point_box i {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+}
+button.mx-add_point:hover,
+button.mx-open_point_box:hover {
+    color: #0085ba;
+    border: 1px solid #0085ba;
+}
+button.mx-add_region:hover,
+button.mx-delete_region:hover {
+    color: #0085ba;
+}
+.mxmpotm_point_area_wrap .form-group:last-child button.mx-delete_region {
+    display: none;
+}
+.mxmpotm_point_area_wrap .form-group:last-child button.mx-add_region {
+    display: block;
+}
+.mx-block_wrap.is-invalid {
+    border-color: #dc3545;
+}
+.mxmpotm_add_custom_marker {
+    cursor: pointer;
+}
+.mxmpotm_custom_marker_wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+.mxmpotm_custom_marker_reset_marker {
+    position: absolute;
+    margin-top: -18px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(1, 140, 187);
+    color: rgb(1, 140, 187);
+    cursor: pointer;
+}
+.mxmpotm_custom_marker_reset_marker:hover {
+    background-color: #fff;
+}
